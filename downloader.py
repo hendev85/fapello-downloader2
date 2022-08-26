@@ -18,23 +18,23 @@ model_url = 'https://fapello.com/content/' + args.model[0] +'/'+ args.model[1:2]
     args.model
 
 def check_num(no):
-    if(no > 999):
-        return('/2000/')
-    elif(no > 1999):
-        return('/3000/')
-    elif(no > 2999):
-        return('/4000/')
-    elif(no > 3999):
-        return('/5000/')
-    elif(no > 4999):
-        return('/6000/')
-    elif(no > 5999):
-        return('/7000/')
-    elif(no > 6999):
-        return('/8000/')
+    if(no > 8999):
+        return('/10000/')
     elif(no > 7999):
         return('/9000/')
-    elif(no > 8999):
+    elif(no > 6999):
+        return('/8000/')
+    elif(no > 5999):
+        return('/7000/')
+    elif(no > 4999):
+        return('/6000/')
+    elif(no > 3999):
+        return('/5000/')
+    elif(no > 2999):
+        return('/4000/')
+    elif(no > 1999):
+        return('/3000/')
+    elif(no > 999):
         return('/2000/')
     else:
         return('/1000/')
